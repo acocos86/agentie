@@ -23,3 +23,4 @@ describe('HotelsComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
