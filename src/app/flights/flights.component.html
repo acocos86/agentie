@@ -1,45 +1,50 @@
-<html>
-    <head>
-        <title>Flight Ticket Booking Form</title>
-    </head>
-    <body>
-        <div class="booking-form-box">
-            <div class="radio-btn">
-                <input type="radio" class="btn" name="Check" checked="Checked"><span><font size="+1">One Way</font></span>
-                <input type="radio" class="btn" name="Check"><span><font size="+1">Multi-City</font></span>
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flight Ticket Booking Form</title>
+    <link rel="stylesheet" href="flights.component.scss">
+</head>
+
+<body>
+    <div class="booking-form-box">
+        <div class="radio-btn">
+            <input type="radio" class="btn" name="Check" checked="Checked"><span><font size="+1">One Way</font></span>
+            <input type="radio" class="btn" name="Check"><span><font size="+1">Multi-City</font></span>
+        </div>
+        <div class="booking-form">
+            <label><font size="+1">Flying Form</font></label><input type="text" class="form-control" placeholder="  City Of Airport">
+            <label><font size="+1">Flying To</font></label><input type="text" class="form-control" placeholder="  City Of Airport">
+            <div class="input-grp">
+                <label><font size="+1">Departing</font></label>
+                <input type="date" class="form-control select-date">
             </div>
-            <div class="booking-form">
-                <label><font size="+1">Flying Form</font></label><input type="text" class="form-control" placeholder="  City Of Airport">
-                <label><font size="+1">Flying To</font></label><input type="text" class="form-control" placeholder="  City Of Airport">
-                <div class="input-grp">
-                    <label><font size="+1">Departing</font></label>
-                    <input type="date" class="form-control select-date" >
-                </div>
-                <div class="input-grp">
-                    <label><font size="+1">Returning</font></label>
-                    <input type="date" class="form-control select-date" >
-                </div>
-                <div class="input-grp">
-                    <label><font size="+1">Adults</font></label>
-                    <input type="number" class="form-control" value="1" >
-                </div>
-                <div class="input-grp">
-                    <label><font size="+1">Children</font></label>
-                    <input type="number" class="form-control" value="0" >
-                </div>
-                <div class="input-grp">
-                    <label><font size="+1">Travel Class</font></label>
-                    <select class="custom-select">
+            <div class="input-grp">
+                <label><font size="+1">Returning</font></label>
+                <input type="date" class="form-control select-date">
+            </div>
+            <div class="input-grp">
+                <label><font size="+1">Adults</font></label>
+                <input type="number" class="form-control" value="1">
+            </div>
+            <div class="input-grp">
+                <label><font size="+1">Children</font></label>
+                <input type="number" class="form-control" value="0">
+            </div>
+            <div class="input-grp">
+                <label><font size="+1">Travel Class</font></label>
+                <select class="custom-select">
                         <option value="1"><font size="+1">Economy Class</font></option>
                         <option value="2"><font size="+1">Business Class</font></option>
                     </select>
-                </div>
-                <div class="input-grp">
-                    <button type="button" class="btn btn-primary flight"><font size="+0.5"><span>&#9992;</span>Show Flights</font></button>
-                </div>
+            </div>
+            <div class="input-grp">
+                <button type="button" class="btn btn-primary flight"><font size="+0.5"><span>&#9992;</span>Show Flights</font></button>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
-
-

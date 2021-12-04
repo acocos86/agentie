@@ -1,25 +1,55 @@
-body{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(flights.png);
+.booking-form-box {
+    background-image: url(flights.png);
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+}
+
+.banner-text {
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    color: snow;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.banner-text h1 {
+    font-size: 66px;
+}
+
+.banner-text h2 {
+    font-size: 40px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(flights.png);
     height: 100vh;
     background-size: cover;
-    background-position: center;  
+    background-position: center;
 }
-.booking-form-box{  
-    height:420px;
+
+.booking-form-box {
+    height: 420px;
     max-width: 300px;
-    border:1px solid #1634b9;
-    margin:30% auto 0;
-    color:#000;
-    background-color :#fff;
+    border: 1px solid #1634b9;
+    margin: 30% auto 0;
+    color: #000;
+    background-color: #fff;
 }
-.radio-btn{
+
+.radio-btn {
     margin: 0 20px;
 }
-.radio-btn .btn{
-    margin:20px 10px 20px 0;
-    box-shadow:none;
+
+.radio-btn .btn {
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
 }
-.radio-btn .btn::after{
+
+.radio-btn .btn::after {
     content: '';
     height: 15px;
     width: 15px;
@@ -31,70 +61,83 @@ body{
     border: 3px solid #000;
     visibility: visible;
     border-radius: 50%;
-    color:#000;
+    color: #000;
 }
-.radio-btn .btn:checked::after{
+
+.radio-btn .btn:checked::after {
     content: '';
     background-color: #000;
     transition: 0.5s;
 }
-.radio-btn span{
-    color :#000;
+
+.radio-btn span {
+    color: #000;
     margin-right: 5px;
     font-size: 12px;
 }
-.booking-form{
+
+.booking-form {
     padding: 0 20px 20px;
 }
-.booking-form labe{
+
+.booking-form labe {
     margin-bottom: 5px;
     margin-top: 10px;
     font-size: 12px;
-    color:#000;
+    color: #000;
 }
-input::placeholder{
-    color:#000 !important;
+
+input::placeholder {
+    color: #000 !important;
 }
-.input-grp{
+
+.input-grp {
     width: 151px;
     display: inline-block;
 }
-.form-control{
+
+.form-control {
     font-size: 10px!important;
     border-radius: 0!important;
     color: #000;
     background: transparent;
     box-shadow: none;
 }
+
 .select-date::-webkit-inner-spin-button,
-.select-date::-webkit-outer-spin-button{
-    -webkit-appearace:none;
-    margin:0;
+.select-date::-webkit-outer-spin-button {
+    -webkit-appearace: none;
+    margin: 0;
 }
-.select-date::-webkit-calender-picker-indicator{
+
+.select-date::-webkit-calender-picker-indicator {
     background: transparent!important;
 }
-.custom-select{
-    color:#000;
+
+.custom-select {
+    color: #000;
     font-size: 12px!important;
-    border:1px solid #000!important;
+    border: 1px solid #000!important;
     box-shadow: none!important;
     border-radius: 0!important;
     background: transparent!important;
 }
-.custom-select option{
+
+.custom-select option {
     color: #333;
 }
-.flight{
+
+.flight {
     width: 100%!important;
     padding: 9px 0!important;
     font-size: 12px!important;
     border: 1px solid #ced4da!important;
     background: transparent!important;
     box-shadow: none!important;
-    border-radius: 0!important ;
+    border-radius: 0!important;
 }
-.flight:hover{
+
+.flight:hover {
     background: #fff!important;
     color: #000!important;
     transition: 0.5s;
