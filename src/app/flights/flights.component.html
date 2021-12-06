@@ -2,19 +2,51 @@
 <html lang="en">
 
 
-<head>
-    <meta charset="UTF-8">
-    <title>Flight Ticket Booking Form</title>
-    <link rel="stylesheet" href="flights.component.scss">
-</head>
-
 <body>
     <div class="booking-form-box">
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+        <div class="radio-btn" style="text-align: center;">
+            <input type="radio" class="btn" name="Check" checked="Checked"><span><font size="+1">One Way</font></span>
+            <input type="radio" class="btn" name="Check"><span><font size="+1">Multi-City</font></span>
+        </div>
+        <div class="container">
+            <p><label>Flying Form</label><input type="text" placeholder=" City Of Airport" /> <label>Flying To</label><input type="text" placeholder=" City Of Airport" /></p>
+            <div>&nbsp;</div>
+            <div><label>Departing</label> <input type="date" /></div>
+            <div>&nbsp;</div>
+            <div><label>Returning</label> <input type="date" /></div>
+            <div>&nbsp;</div>
+            <div><label>Adults</label> <input type="number" value="1" /></div>
+            <div>&nbsp;</div>
+            <div class="input-grp">
+                <label>Children</label>
+                <input type="number" value="0">
+            </div>
+            <div>&nbsp;</div>
+            <div class="input-grp">
+                <label>Travel Class</label>
+                <select class="custom-select">
+                        <option value="1">Economy Class</option>
+                        <option value="2">Business Class</option>
+                    </select>
+            </div>
+            <div>&nbsp;</div>
+            <div><button type="button">✈Show Flights</button></div>
+        </div>
+    </div>
+
+    <!-- <div class="booking-form-box">
         <div class="radio-btn">
             <input type="radio" class="btn" name="Check" checked="Checked"><span><font size="+1">One Way</font></span>
             <input type="radio" class="btn" name="Check"><span><font size="+1">Multi-City</font></span>
         </div>
-        <div class="booking-form">
+        <div class="container">
             <label><font size="+1">Flying Form</font></label><input type="text" class="form-control" placeholder="  City Of Airport">
             <label><font size="+1">Flying To</font></label><input type="text" class="form-control" placeholder="  City Of Airport">
             <div class="input-grp">
@@ -44,7 +76,7 @@
                 <button type="button" class="btn btn-primary flight"><font size="+0.5"><span>&#9992;</span>Show Flights</font></button>
             </div>
         </div>
-    </div>
+    </div> -->
 </body>
 
 </html>

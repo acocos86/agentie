@@ -1,10 +1,21 @@
 .booking-form-box {
-    background-image: url(flights.png);
-    height: 10vh;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    background-blend-mode: darken;
+    height: 500px;
+    max-width: 500px;
+    border: 1px solid #1634b9;
+    margin: 0% auto 0;
+    color: #000;
+    background-color: #fff;
+}
+
+.booking-form {
+    padding: 0 20px 20px;
+}
+
+.booking-form labe {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #000;
 }
 
 .banner-text {
@@ -26,18 +37,9 @@
 
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(flights.png);
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
-}
-
-.booking-form-box {
-    height: 420px;
-    max-width: 300px;
-    border: 1px solid #1634b9;
-    margin: 30% auto 0;
-    color: #000;
-    background-color: #fff;
 }
 
 .radio-btn {
@@ -76,23 +78,11 @@ body {
     font-size: 12px;
 }
 
-.booking-form {
-    padding: 0 20px 20px;
-}
-
-.booking-form labe {
-    margin-bottom: 5px;
-    margin-top: 10px;
-    font-size: 12px;
-    color: #000;
-}
-
 input::placeholder {
     color: #000 !important;
 }
 
 .input-grp {
-    width: 151px;
     display: inline-block;
 }
 
